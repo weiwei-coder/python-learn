@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的博客</title>
+</head>
+<body>
+    <h1>欢迎来到我的博客</h1>
+    <a href="{{ url_for('create_post') }}">创建新文章</a>
+    
+    {% for post in posts %}
+    <div>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>

@@ -1,4 +1,5 @@
 # 简单的if-else语句
+# 条件语句
 temperature = 28
 
 if temperature > 30:

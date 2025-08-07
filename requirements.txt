@@ -1,0 +1,4 @@
+# Python学习项目依赖
+flask
+werkzeug
+requests

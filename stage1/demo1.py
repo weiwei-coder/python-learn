@@ -1,4 +1,5 @@
 # 第一个Python程序
+# Hello World 和基础输出
 print("Hello, World!")
 
 # 格式化输出

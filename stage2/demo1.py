@@ -1,3 +1,4 @@
+# 定义函数
 # 定义一个计算面积的函数
 def calculate_area(length, width):
     return length * width
